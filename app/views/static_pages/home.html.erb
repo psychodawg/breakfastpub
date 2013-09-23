@@ -1,8 +1,13 @@
-<% provide(:title, 'Home') %>
-	<h1>Breakfast Pub</h1>
-	<p>
-		This is the home page for the
-  		<a href="http://breakfastpub.com/">Breakfast Pub</a>
-  		application.
-	</p>
+<div class="center hero-unit">
+  <h1>Breakfast Pub</h1>
+
+  <h2>
+    This is the home page for the Breakfast Pub
+  </h2>
+
+  <%= link_to "Sign up now!", signup_path, class: "btn btn-large btn-primary" %>
+</div>
+
+<%= link_to image_tag("rails.png", alt: "Rails"), 'http://rubyonrails.org/' %>
+
 
